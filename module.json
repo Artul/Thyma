@@ -1,0 +1,169 @@
+{
+  "id": "thyma",
+  "title": "Thyma",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Artul",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ThymaItems",
+      "label": "Items",
+      "path": "packs/ThymaItems",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ThymaClasses",
+      "label": "Classes",
+      "path": "packs/ThymaClasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ThymaSpecies",
+      "label": "Species",
+      "path": "packs/ThymaSpecies",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ThymaBackgrounds",
+      "label": "Backgrounds",
+      "path": "packs/ThymaBackgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ThymaSpells",
+      "label": "Spells",
+      "path": "packs/ThymaSpells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ThymaFeats",
+      "label": "Feats",
+      "path": "packs/ThymaFeats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Thyma",
+      "sorting": "a",
+      "color": "#63a5ff",
+      "packs": [
+        "ThymaItems",
+        "ThymaSpells",
+        "ThymaClasses",
+        "ThymaSpecies",
+        "ThymaBackgrounds",
+        "ThymaRules",
+        "ThymaFeats",
+        "ThymaActors"
+      ],
+      "folders": [
+        {
+          "name": "Items",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaItems"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Spells",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaSpells"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Classes",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaClasses"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Species",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaSpecies"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Backgrounds",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaBackgrounds"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Feats",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaFeats"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
