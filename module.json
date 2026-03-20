@@ -15,6 +15,9 @@
   "flags": {
     "canUpload": true
   },
+  "esmodules": [
+    "scripts/main.js"
+  ],
   "packs": [
     {
       "name": "ThymaItems",
