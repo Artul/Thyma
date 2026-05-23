@@ -1,0 +1,28 @@
+{
+  "THYMA": {
+    "settings": {
+      "enable-spectator-camera": {
+        "name": "Enable spectator camera",
+        "hint": "Enable or disable the automatic spectator camera system"
+      },
+      "spectator-user": {
+        "name": "Spectator User",
+        "hint": "Select the user account that should act as the automated spectator camera."
+      },
+      "image-popout-timeout": {
+        "name": "Image Popout Auto Close Time",
+        "hint": "How long image popouts should remain visible for the spectator camera before automatically closing, measured in seconds. Set to 0 to disable automatic closing."
+      }
+    },
+    "keybinds": {
+      "toggle-ui": {
+        "name": "Toggle Stream UI",
+        "hint": "Toggle the Foundry interface visibility."
+      },
+      "toggle-spectator-combat-mode": {
+        "name": "Toggle spectator camera combat mode",
+        "hint": "Toggle the combat mode for the spectator camera"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+body.thyma-hide-ui #ui-left,
+body.thyma-hide-ui #ui-middle,
+body.thyma-hide-ui #ui-right,
+body.thyma-hide-ui #players,
+body.thyma-hide-ui #hotbar,
+body.thyma-hide-ui #navigation,
+body.thyma-hide-ui #controls,
+body.thyma-hide-ui #sidebar {
+    display: none !important;
+}

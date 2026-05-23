@@ -1,0 +1,28 @@
+{
+  "THYMA": {
+    "settings": {
+      "enable-spectator-camera": {
+        "name": "Zuschauerkamera aktivieren",
+        "hint": "Aktiviert oder deaktiviert das automatische Zuschauerkamera-System."
+      },
+      "spectator-user": {
+        "name": "Zuschauer-Nutzer",
+        "hint": "Wähle den Nutzer aus, der als automatische Zuschauerkamera verwendet werden soll."
+      },
+      "image-popout-timeout": {
+        "name": "Automatische Schließzeit für Bild-Popups",
+        "hint": "Wie lange Bild-Popups für die Zuschauerkamera sichtbar bleiben sollen, bevor sie automatisch geschlossen werden, gemessen in Sekunden. Auf 0 setzen, um das automatische Schließen zu deaktivieren."
+      }
+    },
+    "keybinds": {
+      "toggle-ui": {
+        "name": "Stream-UI umschalten",
+        "hint": "Blendet die Foundry-Benutzeroberfläche ein oder aus."
+      },
+      "toggle-spectator-combat-mode": {
+        "name": "Toggle spectator camera combat mode",
+        "hint": "Toggle the combat mode for the spectator camera"
+      }
+    }
+  }
+}
