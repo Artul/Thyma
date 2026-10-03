@@ -8,3 +8,17 @@ body.thyma-hide-ui #controls,
 body.thyma-hide-ui #sidebar {
     display: none !important;
 }
+.currency {
+    flex-flow: wrap;
+}
+.currency::before {
+    content: "";
+    flex-basis: 100%;
+    order: 6;
+}
+.currency > label {
+    order: 1;
+}
+.currency > label:nth-child(n + 6) {
+    order: 7;
+}
