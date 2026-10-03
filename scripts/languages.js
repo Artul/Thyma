@@ -3,7 +3,7 @@ export const InitLanguages = () => {
         label: "Thyma",
         selectable: false,
         children: {
-            sylthari: {
+            "thyma-sylthari": {
                 label: "Sylthari",
             }
         }
