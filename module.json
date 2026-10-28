@@ -1,7 +1,6 @@
 {
   "id": "thyma",
   "title": "Thyma",
-  "description": "",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "13",
@@ -20,7 +19,9 @@
     "scripts/main.js"
   ],
   "styles": [
-    "styles/thyma.css"
+    {
+      "src": "styles/thyma.css"
+    }
   ],
   "languages": [
     {
@@ -103,6 +104,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "ThymaActors",
+      "label": "Actors",
+      "path": "packs/ThymaActors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -121,6 +133,15 @@
         "ThymaActors"
       ],
       "folders": [
+        {
+          "name": "Actors",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "ThymaActors"
+          ],
+          "folders": []
+        },
         {
           "name": "Items",
           "sorting": "m",
@@ -189,5 +210,6 @@
   },
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#"
+  "download": "#{DOWNLOAD}#",
+  "description": ""
 }
