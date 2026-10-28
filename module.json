@@ -1,7 +1,8 @@
 {
   "id": "thyma",
   "title": "Thyma",
-  "version": "1.0.0",
+  "description": "",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -186,5 +187,7 @@
       }
     ]
   },
-  "description": ""
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
 }

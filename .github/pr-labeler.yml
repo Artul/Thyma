@@ -1,0 +1,8 @@
+feature: [ 'feature/*','*-feature','*-feature-*', 'feature-*', ]
+enhancement: [ 'enhancement/*','*-enhancement','*-enhancement-*', 'enhancement-*', ]
+fix: [ 'fix/*','*-fix','*-fix-*', 'fix-*', ]
+bugfix: [ 'bugfix/*','*-bugfix','*-bugfix-*', 'bugfix-*', ]
+bug: [ 'bug/*','*-bug','*-bug-*', 'bug-*', ]
+documentation: [ 'documentation/*','*-documentation','*-documentation-*', 'documentation-*', ]
+chore: [ 'chore/*','*-chore','*-chore-*', 'chore-*', ]
+dependency-upgrade: [ 'dependency-upgrade/*','*-dependency-upgrade','*-dependency-upgrade-*', 'dependency-upgrade-*', ]
